@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" href="/img/favicon.ico" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Greenway</title>
+</head>
+<body>
+    <div class="pop-overlay">
+        <div id="popup-window" class="popup-window">
+          <div class="inner">
+            <form action="/action_page.php">
+                <h6>Заполните форму и нажмите отправить. Мы Вам перезвоним в течении дня.</h6>
+                <input type="text" id="fname" name="firstname" placeholder="Введите имя">
+                <input type="text" id="lname" name="lastname" placeholder="+380">
+                <textarea id="subject" name="subject" placeholder="Задайте вопрос" style="height:150px"></textarea>
+                <button class="bt-popup-send-mail" style="vertical-align:middle"><span>Отправить </span></button>
+              </form>
+          </div>
+          <a href="javascript:void(0);" class="btn-close">Закрыть</a>
+        </div>
+      </div>
+    <header>
+        <nav class="nav_header-menu">
+            <div class="container">
+                <div class="row">
+               <img src="/img/logo.png" alt="Логотип">
+                    <ul class="menu-main col-8 ml-auto">
+                        <li><a href="#about_us">О нас</a></li>
+                        <li><a href="#catalog">Каталог</a></li>
+                        <li><a href="#pay-and-delivery">Оплата и доставка</a></li>
+                        <li><a href="#start-bussines">Начать бизнес</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                    </ul>
+                <!-- Collapse button -->
+        <button class="navbar-toggler second-button col-2 ml-auto mt-auto mb-auto align-self-end" type="button" data-toggle="collapse" data-target="#navbarSupportedContent23" aria-controls="navbarSupportedContent23" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent23">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a href="#about_us">О нас</a></li>
+                <li class="nav-item"><a class="nav-link" href="#catalog">Каталог</a></li>
+                <li class="nav-item"><a class="nav-link" href="#pay-and-delivery">Оплата и доставка</a></li>
+                <li class="nav-item"><a class="nav-link" href="#start-bussines">Начать бизнес</a></li>
+                <li class="nav-item"><a class="nav-link" href="#reviews">Отзывы</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>               
+        </nav>
+    </header>
+    <section class="path-one-info-greenway">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="path-one-info-greenway__block-2 col-6 offset-5">
+                    <p class="path-one-info-greenway__block-2__text">Заказать бесплатный звонок можно нажав на кнопку ниже</p>
+                    <button class="bt-popup" style="vertical-align:middle" id="popup" href="javascript:void(0);"><span>Перезвоните мне!</span></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about_us" id="about_us">
+        <div class="container">
+            <div class="row pt-1">
+                <div class="about_us__block-one col-8">
+                    <p class="about_us__block-one__text"><b>Greenway</b> – это всемирный производитель экологически чистой продукции для дома,
+                        здоровья и красоты. 
+                        Улучшение экологии и здоровья людей – это основная цель компании, продукция которой
+                        уже сейчас меняет жизнь клиентов и их семей к лучшему. 
+                        Для людей, которые являются партнерами компании, открываются возможности
+                        собственного бизнеса. Прибыль от которого не заставит себя долго ждать.
+                    </p>   
+                </div>
+                <div class="about_us__block-two col-4">
+                    <img class="about_us__block-two__img" src="/img/logo_big_about_us.png" alt="Логотип">
+                </div>
+            </div>
+        </div>
+        <img class="about_us__img" src="/img/about-us-background.png" alt="">
+    </section>
+    <section class="catalog" id="catalog">
+        <h1 class="section-name">Каталог продукции Greenway</h1>
+        <div class="container">
+            <div class="row">
+                    <div class="catalog__items col-12">
+                        <div class="catalog__item col-xl-3 col-md-4 col-sm-8">
+                            <img class="catalog__item__logo" src="/img/catalog/aqua_magic_logo.png" alt="Картинка">
+                            <p class="catalog__item__name">Новая технология чистоты без химии</p>
+                            <p class="catalog__item__description">Серия высокотехнологичных салфеток из расчеплающего микроволокна для ухода за телом и всех видов уборки</p>
+                            <img class="catalog__item__img" src="/img/catalog/aqua_magic_img.jpg" alt="Картинка">
+                            <div class="catalog__item__fon-hover">
+                                <a href="#"><img class="catalog__item__button-hover" src="/img/catalog/catalog_hover_button.png" alt="Кнопка"></a>
+                            </div>
+                        </div>
+                        <div class="catalog__item col-xl-3 col-md-4 col-sm-8">
+                            <img class="catalog__item__logo" src="/img/catalog/aqua_matic_logo.png" alt="Картинка">
+                            <p class="catalog__item__name">Инновационные системы для уборки</p>
+                            <p class="catalog__item__description">Удобные помощники по дому для простой и качественной уборки гарантируют быстрый результат и идеальную чистоту</p>
+                            <img class="catalog__item__img" src="/img/catalog/aqua_matic_img.jpg" alt="Картинка">
+                            <div class="catalog__item__fon-hover">
+                                <a href="#"><img class="catalog__item__button-hover" src="/img/catalog/catalog_hover_button.png" alt="Кнопка"></a>
+                            </div>
+                        </div>
+                        <div class="catalog__item col-xl-3 col-md-4 col-sm-8">
+                            <img class="catalog__item__logo" src="/img/catalog/sharme_essential_logo.png" alt="Картинка">
+                            <p class="catalog__item__name">Натуральные аромамасла для широкого применения</p>
+                            <p class="catalog__item__description">Живительная сила растений в каждой капле, дарящая человеку здоровье, красоту, душевный комфорт и хорошее настроение</p>
+                            <img class="catalog__item__img" src="/img/catalog/sharme_essential_img.jpg" alt="Картинка">
+                            <div class="catalog__item__fon-hover">
+                                <a href="#"><img class="catalog__item__button-hover" src="/img/catalog/catalog_hover_button.png" alt="Кнопка"></a>
+                            </div>
+                        </div>
+                        <div class="catalog__item col-xl-3 col-md-4 col-sm-8 ">
+                            <img class="catalog__item__logo" src="/img/catalog/sharme_phyto_litho_line_logo.png" alt="Картинка">
+                            <p class="catalog__item__name">Линия сухой косметики и питательных кремов</p>
+                            <p class="catalog__item__description">Натуральный фитоминеральный комплекс для ухода за кожей и волосами дарит бережный уход и неувядающую молодость</p>
+                            <img class="catalog__item__img" src="/img/catalog/sharme_phyto_litho_line_img.jpg" alt="Картинка">
+                            <div class="catalog__item__fon-hover">
+                                <a href="#"><img class="catalog__item__button-hover" src="/img/catalog/catalog_hover_button.png" alt="Кнопка"></a>
+                            </div>
+                        </div>
+                        <div class="catalog__item col-xl-3 col-md-4 col-sm-8">
+                            <img class="catalog__item__logo" src="/img/catalog/avitall_logo.png" alt="Картинка">
+                            <p class="catalog__item__name">Коктейли для коррекции привычек питания</p>
+                            <p class="catalog__item__description">Низкокалорийные коктейли с уникальным растением худия Гордоне регулируют аппетит и обеспечивают всем необходимым</p>
+                            <img class="catalog__item__img" src="/img/catalog/avitall_img.jpg" alt="Картинка">
+                            <div class="catalog__item__fon-hover">
+                                <a href="#"><img class="catalog__item__button-hover" src="/img/catalog/catalog_hover_button.png" alt="Кнопка"></a>
+                            </div>
+                        </div>
+                        <div class="catalog__item col-xl-3 col-md-4 col-sm-8">
+                            <img class="catalog__item__logo" src="/img/catalog/biotrim_logo.png" alt="Картинка">
+                            <p class="catalog__item__name">Натуральные средства для чистки</p>
+                            <p class="catalog__item__description">Линейка экологически натуральных средств для эффективной уборки и стирки. От экспресс-очистки вещей - к генеральной уборки в доме</p>
+                            <img class="catalog__item__img" src="/img/catalog/biotrim_img.jpg" alt="Картинка">
+                            <div class="catalog__item__fon-hover">
+                                <a href="#"><img class="catalog__item__button-hover" src="/img/catalog/catalog_hover_button.png" alt="Кнопка"></a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section class="pay-and-delivery" id="pay-and-delivery">
+        <h1 class="section-name">Оплата и доставка</h1>
+        <div class="container">
+          <div class="row">
+            <div class="container">
+             <div class="row">
+                <p class="pay-and-delivery__text col-5">Оплата заказов осуществляется на сайте компании Greenway.
+                 После того как товар выбран и заполнены все поля с обязательной  для ввода информацией
+                 нажмите кнопку «Оплатить»,  после чего  откроется сайт платёжной системы LiqPay.
+                 Затем, выберите способ оплаты банковской картой, заполните  данные карты и произведите оплату.</p>
+                <a class="pay-and-delivery__liqpay col-6 offset-1" href="https://www.liqpay.ua">
+                    <img class="pay-and-delivery__liqpay__img" src="/img/logo_pay_liqpay.png" alt="liqpay">
+                </a>
+             </div>
+            </div>
+            <div class="container">
+            <div class="row">
+                <p class="pay-and-delivery__text col-5">Доставка товаров производится через компанию «Нова Пошта»,
+                двумя способами: в  отделение компании или курьером к дверям
+                Вашего дома или квартиры, на ваш выбор. Стоимость доставки согласно
+                тарифам компании  «Нова Пошта». Срок доставки от 1 до 3-х рабочих дней,
+                в зависимости  от удаленности населенного пункта в котором Вы проживаете.</p>
+                <a class="pay-and-delivery__nova-poshta col-6 offset-1" href="https://novaposhta.ua">
+                    <img class="pay-and-delivery__nova-poshta__img" src="/img/logo_delivery_nova_poshta.png" alt="nova-poshta">
+                </a>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="start-bussines" id="start-bussines">
+        <h1 class="section-name">Как начать бизнес?</h1>
+        <div class="container">
+            <div class="row">
+                <p class="start-bussines__tagline col-12">Добро пожаловать в GREENWAY- экологичную компанию №1 в сфере сетевого бизнеса!</p>
+                <p class="start-bussines__text col-12">Для того что бы продолжить регистрацию, вам необходимо найти наставника, который уже работает в Greenway, и будет вам помогать развивать ваш бизнес. Также, этот человек расскажет вам о компании, ее возможности и продукцию. 
+                    Если у вас уже есть знакомый партнер Greenway, укажите его ID при регистрации, чтобы он стал вашим наставником.
+                    Если такого человека у вас нет, то вы можете найти и посмотреть наши социальные сети, открыть там подписчиков  нашего аккаунта та среди них связаться с любым партнером, который зарегистрирует вас в компании и расскажет с чего начать.
+                    Благодарны вам за интерес к Greenway желаем вам успехов в развитии бизнеса!</p>
+            </div>
+            <div class="row">
+                <div class="start-bussines__contacts col-6">
+                    <p class="start-bussines__contacts__name">Телефоны для консультаций:</p>
+                    <p>Kyivstar - 0980629682(Telegram, Viber)</p>
+                    <p>Life - 0631133404</p>
+                    <p class="start-bussines__contacts__mentor">Елена ваш будущий наставник!</p>
+                </div>
+                <div class="start-bussines__bid col-6">
+                    <p>Оставьте свои контактные данные и мы к вам объязательно перезвоним</p>
+                    <form action="/action_page.php">
+                        <input type="text" id="fname" name="firstname" placeholder="Введите имя">
+                        <input type="text" id="lname" name="lastname" placeholder="+380__-___-__-__">
+                        <textarea id="subject" name="subject" placeholder="Задайте вопрос" style="height:150px"></textarea>
+                        <button class="button" style="vertical-align:middle"><span>Отправить </span></button>
+                      </form>
+                    </div>
+                </div>
+            </div>     
+    </section>
+    <section class="reviews" id="reviews">
+        <h1 class="section-name">Отзывы</h1>
+            <div class="container">
+              <div class="row">
+                 <div class="reviews__items">
+                    <div class="reviews__item col-3">
+                        <p class="reviews__item__name">Василий, 20 лет</p>
+                        <p class="reviews__item__town">г.Винница</p>
+                        <p class="reviews__item__text">Все супер! Салфетки самые лучшие!</p>
+                        <p class="reviews__item__date">05.11.2020</p>
+                    </div>
+                    <div class="reviews__item col-3">
+                        <p class="reviews__item__name">Василий, 20 лет</p>
+                        <p class="reviews__item__town">г.Винница</p>
+                        <p class="reviews__item__text">Все супер! Салфетки самые лучшие!</p>
+                        <p class="reviews__item__date">05.11.2020</p>
+                    </div>
+                    <div class="reviews__item col-3">
+                        <p class="reviews__item__name">Василий, 20 лет</p>
+                        <p class="reviews__item__town">г.Винница</p>
+                        <p class="reviews__item__text">Все супер! Салфетки самые лучшие!</p>
+                        <p class="reviews__item__date">05.11.2020</p>
+                    </div>
+                    <div class="reviews__item col-3">
+                        <p class="reviews__item__name">Василий, 20 лет</p>
+                        <p class="reviews__item__town">г.Винница</p>
+                        <p class="reviews__item__text">Все супер! Салфетки самые лучшие!</p>
+                        <p class="reviews__item__date">05.11.2020</p>
+                    </div>
+                </div>
+            </div>    
+          </div>  
+    </section>
+    <footer>
+        <div class="container-fluid mb-5 pb-5">
+            <div class="row pt-5">
+                <img class="footer-logo col-xl-3 col-md-6 col-sm-10 offset-1" src="/img/logo_footer.png" alt="Логотип">
+                <ul class="menu-footer col-xl-2 offset-1">
+                    <li><a href="#about_us">О нас</a></li>
+                    <li><a href="#catalog">Каталог</a></li>
+                    <li><a href="#pay-and-delivery">Оплата и доставка</a></li>
+                    <li><a href="#start-bussines">Начать бизнес</a></li>
+                    <li><a href="#reviews">Отзывы</a></li>
+                </ul>
+                <div class="footer-contact col-lg-3 col-xl-4 offset-1">
+                    <p>Контакты</p>
+                    <p>Телефоны:</p>
+                    <p>0980629682(Kyivstar)</p>
+                    <p>0931133404(Life)</p>
+                    <p>Email:elena.polonskaya07.gmail.com</p>
+                    <div class="social-icons">
+                        <span><a href="#"><i class="fab fa-facebook"></i></a></span>
+                        <span><a href="#"><i class="fab fa-instagram"></i></a></span>
+                        <span><a href="#"><i class="fab fa-viber"></i></a></span>
+                        <span><a href="#"><i class="fab fa-telegram"></i></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scrollup">
+            <!-- Иконка fa-chevron-up (Font Awesome) -->
+            <i class="fas fa-arrow-alt-circle-up"></i>
+          </div>
+        <hr>
+        <div class="footer__copy">
+            <p >&copyВсе права защищены 2020</p>
+        </div>
+    </footer>
+<!-- jQuery, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+crossorigin="anonymous"></script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+crossorigin="anonymous"></script>
+<!-- Slick Slider JS -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!-- jS -->
+<script src="/js/slider-reviews.js"></script>
+<script src="/js/scroll.js"></script>
+<script src="/js/buttonUp.js"></script>
+<script src="/js/pop.js"></script>
+<script src="/js/hamburger.js"></script>
+<script src="/js/menuactive.js"></script>
+</body>
+</html>
